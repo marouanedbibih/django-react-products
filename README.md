@@ -1,1 +1,2 @@
-# django-react-products
+# Products Managment - Django React 
+
