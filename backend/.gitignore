@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Ignore virtual environment directory
+env/
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore Django migration files
+apis/modules/category/migrations/
+apis/modules/product/migrations/
+
+# Ignore .env files for environment variables (if any)
+.env
+
+# Ignore pycharm project files
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore media files (if you have a media folder)
+media/
+
+# Ignore static files (if they are generated)
+static/
+
+# Ignore coverage reports
+.coverage
+*.coveragerc
+
+# Ignore django secret key if it's stored in a separate file
+*.key
